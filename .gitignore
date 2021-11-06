@@ -1,0 +1,20 @@
+# runs
+head-yolov5-5.0/runs
+
+# checkpoints
+*.pt
+*.cache
+*.onnx
+*.trtmodel
+
+# some special dir
+/.idea
+
+# compressed file
+*.zip
+*.tar.gz
+*.tar
+*.tgz
+*.rar
+
+__pycache__
