@@ -1,14 +1,18 @@
-# runs
-head-yolov5-5.0/runs
 
 # checkpoints
 *.pt
+*.pth
 *.cache
 *.onnx
 *.trtmodel
+*.mat
 
 # some special dir
 /.idea
+/head-yolov5-5.0/runs
+/yolov5_face_master/runs
+/arcface_pytorch/face_data
+/arcface_pytorch/data/Datasets
 
 # compressed file
 *.zip
@@ -16,5 +20,9 @@ head-yolov5-5.0/runs
 *.tar
 *.tgz
 *.rar
+
+# lib
+*.so
+*.a
 
 __pycache__
